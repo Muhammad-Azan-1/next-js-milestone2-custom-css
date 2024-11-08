@@ -11,9 +11,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Link from "next/link";
-import { faHeartCircleBolt } from "@fortawesome/free-solid-svg-icons";
-import { faHeartPulse } from "@fortawesome/free-solid-svg-icons/faHeartPulse";
-import { faKissWinkHeart } from "@fortawesome/free-solid-svg-icons/faKissWinkHeart";
 import { faHeart } from "@fortawesome/free-solid-svg-icons/faHeart";
 const Footer = () => {
   return (
@@ -33,7 +30,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faTwitter} />
           </Link>
         </div>
-        
+
         <div className={styles.copyright}>
           Made with{" "}
           <FontAwesomeIcon icon={faHeart} style={{ color: "#ff004f" }} /> by

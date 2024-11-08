@@ -4,14 +4,14 @@ import Link from "next/link";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
-import { faBars, faEquals, faTimes } from "@fortawesome/free-solid-svg-icons";
+import {faEquals, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { use, useState } from "react";
+import {useState } from "react";
 
 config.autoAddCss = false;
 const Header = () => {
-  let [menu, setMenu] = useState(false);
+  const [menu, setMenu] = useState(false);
 
   function toggleMenu() {
     setMenu((prevVale) => !prevVale);

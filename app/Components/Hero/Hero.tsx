@@ -1,13 +1,13 @@
 import styles from "./hero.module.css";
 import Link from "next/link";
-import Image from "next/image";
+
 
 const Hero = () => {
   return (
     <>
       <section>
         <div className={styles.main}>
-          <h1>World's Biggest University</h1>
+          <h1>World&apos;s Biggest University</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             tempore. <br />

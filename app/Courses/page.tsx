@@ -73,7 +73,7 @@ const Courses = () => {
           {/* box4 */}
           <div className={`${styles.box} ${styles.box4}`}>
             <div className={styles.box_content}>
-              <h2>Master's</h2>
+              <h2>Master`&apos;`s</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit,
                 dolorem. At fugit provident rerum recusandae perferendis
