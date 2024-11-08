@@ -28,7 +28,7 @@ const About = () => {
         <div className={styles.main2}>
           <div className={styles.leftside}>
             <h1 className={styles.leftHeading}>
-              We are the world  `&apos;` s largest university
+              We are the world&apos;s largest university
             </h1>
             <p className={styles.leftp}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
