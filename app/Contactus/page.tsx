@@ -64,7 +64,7 @@ const Contact = () => {
           </ul>
 
           <ul className={styles.ul2}>
-            <Link className={styles.linktag} href="/">
+            <Link className={styles.linktag} href="tel:+923101285239">
               {" "}
               <FontAwesomeIcon className={styles.phone} icon={faPhone} />{" "}
             </Link>
