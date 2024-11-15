@@ -4,14 +4,8 @@ import Link from "next/link";
 import Footer from "../Components/Footer/Footer";
 
 // font icons
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false;
-import {
-  faEnvelope,
-  faHouse,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
+
+import { faEnvelope,faHouse, faPhone,} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // meta DAtA
@@ -136,5 +130,6 @@ const Contact = () => {
     </>
   );
 };
+
 
 export default Contact;

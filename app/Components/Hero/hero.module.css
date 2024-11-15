@@ -52,7 +52,7 @@
   transition: 1s;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 785px) {
   .main h1 {
     font-size: 2.5em;
   }
@@ -63,7 +63,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 502px) {
   .main h1 {
     font-size: 2rem;
   }
@@ -76,7 +76,7 @@
 
 @media (max-width: 404px) {
   .main h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .main p {

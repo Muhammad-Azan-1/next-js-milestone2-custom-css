@@ -4,17 +4,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 50px;
   width: 100%;
   height: 60vh;
+  margin-top:15px;
+ 
 }
 
 .leftside {
-  width: 40%;
-  height: 360px;
+  width: 50%;
+  height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 15px;
+  padding-left: 15px;
 }
 
 .leftside h1 {
@@ -23,6 +28,7 @@
   font-family: "Urbanist", sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+  margin-top:20px ;
 }
 
 .leftside p {
@@ -46,6 +52,7 @@ color: white;
 
 .rightside {
   height: 280px;
+  padding-right: 15px;
 }
 
 .linktag {
@@ -96,6 +103,9 @@ color: white;
   color: white;
 }
 
+.text_box{
+  margin-top: 100px;
+}
 .Campus{
   margin-top: 40px;
   width: 100%;
@@ -129,14 +139,69 @@ filter:  drop-shadow(0px  0px  4px rgba(0, 0, 0, 0.5))  ;
   cursor: pointer;
 }
 
+@media (min-width:1000px) and (max-width:1136px){
 
-@media (max-width: 700px) {
+ .leftside h1{
+  font-size: 1.8rem;
+  margin-top: 50px;
+ }
+ .leftside p{
+  font-size: 0.9rem;
+ }
+.leftside{
+  gap: 20px;
+}
+
+
+}
+
+@media (min-width:900px) and (max-width:1000px){
+  .leftside h1{
+    font-size: 1.5rem;
+    margin-top: 70px;
+   }
+   .leftside p{
+    font-size: 1rem;
+   }
+  .leftside{
+    gap: 20px;
+  }
+
+  .image{
+    margin-top: 40px;
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media (min-width:800px) and (max-width:900px){
+  .leftside h1{
+    font-size: 1.4rem;
+    margin-top: 70px;
+   }
+   .leftside p{
+    font-size: 0.9rem;
+   }
+  .leftside{
+    gap: 20px;
+  }
+
+  .image{
+    margin-top:10px;
+    width: 400px;
+    height: 300px;
+  }
+}
+
+
+@media (max-width: 800px) {
   .main2 {
     flex-direction: column;
     margin-top: 70px;
     justify-content: space-evenly;
     align-items: center;
     height: 60vh;
+    width: 100%;
   }
   .leftside h1 {
     font-size: 1.7rem;
@@ -152,11 +217,13 @@ filter:  drop-shadow(0px  0px  4px rgba(0, 0, 0, 0.5))  ;
   }
   .rightside {
     width: 90%;
+    padding:0 ;
   }
 
   .image {
     width: 100%;
     height: 320px;
+    padding: 0;
   }
 
   .text_box{
@@ -204,6 +271,7 @@ filter:  drop-shadow(0px  0px  4px rgba(0, 0, 0, 0.5))  ;
 
   .rightside {
     width: 90%;
+    padding: 0;
   }
   .text_box{
     margin-top: 300px;
@@ -215,6 +283,7 @@ filter:  drop-shadow(0px  0px  4px rgba(0, 0, 0, 0.5))  ;
   .image {
     width: 100%;
     height: 320px;
+    padding: 0;
   }
 }
 
@@ -234,6 +303,7 @@ filter:  drop-shadow(0px  0px  4px rgba(0, 0, 0, 0.5))  ;
     display: flex;
     justify-content: center;
     align-items: space-evenly;
+    padding: 0;
   }
   .leftside h1 {
     font-size: 1.7rem;
@@ -243,6 +313,7 @@ filter:  drop-shadow(0px  0px  4px rgba(0, 0, 0, 0.5))  ;
     width: 100%;
     text-align: center;
     padding: 10px 0px;
+
   }
 
   .leftside p {
@@ -253,10 +324,12 @@ filter:  drop-shadow(0px  0px  4px rgba(0, 0, 0, 0.5))  ;
   .rightside {
     width: 90%;
     margin-top: 20px;
+    padding: 0;
   }
   .image {
     width: 100%;
     height: 320px;
+    padding: 0;
   }
 .text_box{
   margin-top: 350px;

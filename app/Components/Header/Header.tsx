@@ -1,15 +1,11 @@
 "use client";
 import styles from "./header.module.css";
 import Link from "next/link";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false;
+
 import {faEquals, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import {useState } from "react";
 
-config.autoAddCss = false;
 const Header = () => {
   const [menu, setMenu] = useState(false);
 

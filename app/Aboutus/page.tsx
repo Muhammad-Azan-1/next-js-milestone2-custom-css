@@ -49,7 +49,7 @@ const About = () => {
               src="/images/about.jpg"
               alt="About us Image"
               width={500}
-              height={300}
+              height={350}
             ></Image>
           </div>
         </div>

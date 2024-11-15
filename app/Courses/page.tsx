@@ -39,8 +39,9 @@ const Courses = () => {
             <div className={styles.box_content}>
               <h2>Intermediate</h2>
               <p className={styles.ptag}>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit,
-                dolorem.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit,
+              dolorem. At fugit provident rerum recusandae perferendis
+              quaerat, eligendi esse nostrum repellat.
               </p>
               <span>
                 <Link href="">View more</Link>
@@ -79,7 +80,7 @@ const Courses = () => {
           {/* box4 */}
           <div className={`${styles.box} ${styles.box4}`}>
             <div className={styles.box_content}>
-              <h2>Master`&apos;`s</h2>
+              <h2>Master&apos;s</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit,
                 dolorem. At fugit provident rerum recusandae perferendis

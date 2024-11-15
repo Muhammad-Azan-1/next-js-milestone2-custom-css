@@ -1,17 +1,10 @@
 import styles from "./footer.module.css";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false;
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+
+import {faFacebook,faInstagram,faLinkedin, faTwitter,} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons/faHeart";
 
 import Link from "next/link";
-import { faHeart } from "@fortawesome/free-solid-svg-icons/faHeart";
 const Footer = () => {
   return (
     <>

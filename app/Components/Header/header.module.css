@@ -2,7 +2,7 @@
   height: 85px;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -29,9 +29,9 @@
   justify-content: flex-end;
 }
 .nav_links ul {
-  width: 50%;
+  width: 55%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   list-style-type: none;
   padding-bottom: 5px;
@@ -71,7 +71,14 @@
 .crossDiv {
   display: none;
 }
-@media (max-width: 700px) {
+
+@media (min-width: 900px) and (max-width: 1248px) {
+  .nav_links ul {
+    width: 70%;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 900px) {
   .nav_logo {
     position: absolute;
     left: 15px;
