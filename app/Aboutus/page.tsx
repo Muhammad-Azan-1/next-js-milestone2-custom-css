@@ -1,9 +1,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import Hero2 from "../Components/Hero2/hero2";
+import Hero2 from "@/components/Hero2/hero2";
 import styles from "./about.module.css";
-import Footer from "../Components/Footer/Footer";
+import Footer from "@/components/Footer/Footer";
 
 // meta DAtA
 import type { Metadata } from "next";

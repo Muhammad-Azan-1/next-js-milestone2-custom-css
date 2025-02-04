@@ -1,8 +1,8 @@
-import Header from "./Components/Header/Header";
-import Hero from "./Components/Hero/Hero";
+import Header from "@/components/Header/Header";
+import Hero from "@/components/Hero/Hero";
 import styles from "./page.module.css";
-import Footer from "./Components/Footer/Footer";
-import Hero3 from "./Components/Hero3/hero3";
+import Footer from "@/components/Footer/Footer";
+import Hero3 from "@/components/Hero3/hero3";
 
 // meta DAtA
 import type { Metadata } from "next";
